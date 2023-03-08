@@ -1,0 +1,19 @@
+{
+  "name": "wk4_huiswerk",
+  "version": "1.0.0",
+  "description": "huiswerk opdracht",
+  "main": "n",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"node ./CommentService/index.js\" \"node ./BlogPostService/index.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "q": "^1.5.1"
+  }
+}
